@@ -1,7 +1,10 @@
 /*
+
   UNED
-  Estudiante: Luis Gerardo Arce Sánchez
   Curso Programación Web - Tarea 1
+  Estudiante: Luis Gerardo Arce Sánchez
+  Objetivo: style.css se crea con el objetivo de modificar propiedades por defecto del framework Boostrap
+
 */
 
 body {
@@ -14,14 +17,23 @@ p {
   color: white;
 }
 
-/* Propiedades Menu */
-
-/* Menu*/
-
-.bg-light {
-  background-color: #FF6725 !important;
+h1, h2, h3, h4 {
+  color: white;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  color: #FF6725;
+}
+
+span.tab-space {
+  padding-left: 1em;
+}
+
+/* Navbar */
 .navbar-light .navbar-nav .nav-link {
   color: white;
 }
@@ -30,8 +42,17 @@ p {
   color: #0AB59F;
 }
 
-/* Combobox*/
+.navbar-light .navbar-brand {
+  color: white;
+}
 
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: #0AB59F;
+}
+/* Navbar */
+
+
+/* Droodown */
 .dropdown-menu {
   background-color: #FF6725 !important;
 }
@@ -41,47 +62,15 @@ p {
   background-color: #FF6725 !important;
   background-color: white;
 }
+/* Droodown */
 
-/* Boton */
+
+/* Button */
 
 .btn-primary {
   background-color: #0AB59F !important;
   border-color: #0AB59F !important;
 }
-
-/* Titulo */
-
-.navbar-light .navbar-brand {
-  color: white;
-}
-
-.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-  color: #0AB59F;
-}
-
-/* Propiedades Menu */
-
-/* Propiedades Seccion Destino del Mes */
-
-h1, h2, h3, h4 {
-  color: white;
-}
-
-/* Propiedades Seccion Destino del Mes */
-
-/* Propiedades Seccion Quienes Somos */
-
-h1, h2 {
-  color: white;
-}
-
-.lead {
-  color: white;
-}
-
-/* Propiedades Seccion Quienes Somos */
-
-/* Propiedades Seccion Busqueda */
 
 .btn-secondary {
   background-color: #0AB59F;
@@ -97,6 +86,26 @@ h1, h2 {
   background-color: #0AB59F;
   border-color: white;
 }
+
+.btn-info {
+  background-color: #0AB59F;
+  border-color: white;
+}
+
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+  background-color: #FF6725;
+  border-color: white;
+}
+
+.btn-info:hover {
+  background-color: #FF6725;
+  border-color: white;
+}
+
+/* Button */
+
+
+/* Form Control */
 
 .form-control {
   text-align: center;
@@ -133,40 +142,20 @@ h1, h2 {
   color: white;
 }
 
-/* Microsoft Edge */
+/* Form Control */
 
-.btn-info {
-  background-color: #0AB59F;
-  border-color: white;
+/* Other */
+
+.bg-light {
+  background-color: #FF6725 !important;
 }
 
-.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
-  background-color: #FF6725;
-  border-color: white;
-}
-
-.btn-info:hover {
-  background-color: #FF6725;
-  border-color: white;
+.lead {
+  color: white;
 }
 
 .fa {
   font-size: 30px;
 }
 
-a {
-  color: white;
-}
-a:hover {
-  color: #FF6725;
-}
-
-/* Propiedades Seccion Busqueda */
-
-/* Otras Propiedades */
-
-span.tab-space {
-  padding-left: 1em;
-}
-
-/* Otras Propiedades */
+/* Other */
